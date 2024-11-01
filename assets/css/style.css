@@ -83,7 +83,7 @@ body, html {
   position: auto;
   margin-top: 40px;
   transform: translateY(-50%);
-  animation: rotate 2s linear infinite;
+  animation: rotate 0.9s linear infinite;
   
 }
 
@@ -147,10 +147,10 @@ body, html {
 
 @keyframes rotate {
   from {
-      transform: translateY(-50%) rotate(0deg);
+      transform: translateY(50%) rotate(0deg);
   }
   to {
-      transform: translateY(-50%) rotate(360deg);
+      transform: translateY(50%) rotate(-360deg);
   }
 }
 .rocket{
