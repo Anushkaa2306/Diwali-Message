@@ -24,7 +24,7 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
+   margin: 20px 0; 
   background: linear-gradient(45deg, #ffae42, #ff6347, #ff1493, #8a0cf1);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -48,7 +48,9 @@ body, html {
 }
 100%{
   text-shadow: 2px 2px 4px rgba(20, 200, 200, 5);
+  
 }
+
 }
 
 .diwali-slide p {
@@ -76,10 +78,11 @@ body, html {
 
 /* Image positioning */
 .img {
-  width: 30%;
+  width: 100px;
   max-width: 200px;
   position: auto;
-  transform: translateY(50%);
+  margin-top: 40px;
+  transform: translateY(-50%);
   animation: rotate 0.5s linear infinite;
 }
 
@@ -87,8 +90,41 @@ body, html {
   width: 30%;
   max-width: 200px;
   position: auto;
-  
   transform: translateY(-50%);
+  
+}
+.img3 {
+  width: 70px;
+  max-width: 200px;
+  transform: translateY(-10%);
+  animation: move 3s infinite;
+  position: relative;
+  left: 30%;
+}
+.diya{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img4 {
+  width: 70px;
+  max-width: 200px;
+  transform: translateY(-10%);
+  animation: move 3s infinite;
+  position: relative;
+  right: 30%;
+  margin-top: 40px;
+}
+@keyframes move {
+  0%{
+    transform: translateY(-10%);
+  }
+  80%{
+    transform: translateY(-500%);
+  }
+  100%{
+    transform: translateY(-1000%);
+  }
 }
 
 /* Animation keyframes */
@@ -110,6 +146,11 @@ body, html {
   to {
       transform: translateY(-50%) rotate(360deg);
   }
+}
+.rocket{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Responsive adjustments */
