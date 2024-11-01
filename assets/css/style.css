@@ -83,15 +83,15 @@ body, html {
   position: auto;
   margin-top: 40px;
   transform: translateY(-50%);
-  animation: rotate 0.5s linear infinite;
+  animation: rotate 2s linear infinite;
+  
 }
 
 .img2 {
   width: 30%;
   max-width: 200px;
   position: auto;
-  transform: translateY(-50%);
-  
+  transform: translateY(-50%);  
 }
 .img3 {
   width: 70px;
@@ -102,6 +102,12 @@ body, html {
   left: 30%;
 }
 .diya{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+}
+.first{
   display: flex;
   justify-content: center;
   align-items: center;
